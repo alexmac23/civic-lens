@@ -143,21 +143,39 @@
       <h2>Stay Informed. Stay Empowered.</h2>
         <p>Receive text messages with the news you want to know.</p>
         <form>
-          Name
+          <label for="name">Name<span class="required">*</span></label>
+          <input type="text" id="name" name="name" required>
           
-          Mobile
+          <label for="mobile">Mobile<span class="required">*</span></label>
+          <input type="tel" id="mobile" name="mobile" required>
+
+          <fieldset>
+          <legend>Notification Preferences</legend>
           
-          Notification Preferences
-          
-          Breaking News
-          Politics
-          Weather
-          Sports
-          Entertainment
-          World
-          Financial
-          
-          Subscribe
+            <input type="checkbox" id="news" name="news">
+            <label for="news">News</label>
+
+            <input type="checkbox" id="politics" name="politics">
+            <label for="politics">Politics</label>
+
+            <input type="checkbox" id="weather" name="weather">
+            <label for="weather">Weather</label>
+
+            <input type="checkbox" id="sports" name="sports">
+            <label for="sports">Sports</label>
+
+            <input type="checkbox" id="entertainment" name="entertainment">
+            <label for="entertainment">Entertainment</label>
+
+            <input type="checkbox" id="world" name="world">
+            <label for="world">World</label>
+
+            <input type="checkbox" id="financial" name="financial">
+            <label for="financial">Financial</label>
+            
+          </fieldset>
+
+          <submit type="submit">Subscribe</submit>
         </form>
   </section>
 </main>
