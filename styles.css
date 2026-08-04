@@ -109,29 +109,33 @@ body.dark-mode {
 }
 
 /* ///ADD/// Navigation Styles */
-header{
-  color:var(--watchdog-white);
-  background-color: var(--blue-bulletin);
 
-}
-
-nav li{
+.largeNav nav li{
   display:flex;
   padding:0.5rem;
 }
 
-nav ul{
-  display:flex;
-  gap:1rem;
-}
-
-nav a{
+.largeNav nav a{
   color:var(--watchdog-white);
   background-color: var(--news-flash);
+  padding:0.5rem;
+  text-decoration:none;
+}
+
+.mobile-nav{
+  display:none;
 }
 
 /* ///ADD/// Global Layout Styles */
+header{
+  color:var(--watchdog-white);
+  background-color: var(--blue-bulletin);
 
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
 /* ///ADD/// Global Text Styles */
 
 
