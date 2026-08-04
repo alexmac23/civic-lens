@@ -166,7 +166,10 @@ footer{
 }
 
 #featured div{
-  border: 1px solid var(--blue-bulletin);
+  border: 2px solid var(--story-subtitle);
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  box-shadow: var(--shadow);
 }
 
 /* ///ADD/// Global Text Styles */
