@@ -106,6 +106,7 @@ body.dark-mode {
 
 .skipLink:focus{
   left: 0;
+  transition: var(--transition);
 }
 
 /* ///ADD/// Navigation Styles */
