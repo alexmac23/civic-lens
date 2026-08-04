@@ -152,6 +152,12 @@ main{
 footer{
   padding-left: 2rem;
   padding-right: 2rem;
+  background-color: var(--blue-bulletin);
+  color: var(--watchdog-white);
+  margin-top: 1rem;
+
+  display:grid;
+  grid-template-columns: 1fr;
 }
 
 .breakingNews{
@@ -185,10 +191,21 @@ form{
   margin:.5rem;
 }
 
-footer{
-  background-color: var(--blue-bulletin);
+footer a{
   color: var(--watchdog-white);
+  text-decoration:none;
+  background-color: var(--news-flash);
+  padding:.5rem;
+
 }
+
+.socialLinks{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 2rem;
+}
+
+
 /* ///ADD/// Global Text Styles */
 
 
