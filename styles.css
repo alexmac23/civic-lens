@@ -119,15 +119,19 @@ nav a{
   text-decoration:none;
 }
 
-nav{
-  display: flex;
-}
-
 .menu-button{
   color:var(--watchdog-white); 
   background-color: var(--news-flash);
 }
 
+.mobile-nav ul{
+  list-style-type:none;
+  padding:0;
+}
+
+.mobile-nav li{
+  text-decoration:none;
+}
 
 /* ///ADD/// Global Layout Styles */
 header{
