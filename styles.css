@@ -191,6 +191,8 @@ form{
   background-color: var(--news-flash);
   color: var(--watchdog-white);
   margin:.5rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 footer a{
@@ -239,8 +241,9 @@ legend {
   margin: 1rem;
 }
 
-.formInput label {
+.formInput input {
   width: 100%;
+  margin-bottom: 1rem;
 }
 
 /* ///ADD/// Global Text Styles */
