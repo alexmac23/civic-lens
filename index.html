@@ -143,39 +143,55 @@
       <h2>Stay Informed. Stay Empowered.</h2>
         <p>Receive text messages with the news you want to know.</p>
         <form>
-          <label for="name">Name<span class="required">*</span></label>
-          <input type="text" id="name" name="name" required>
-          
-          <label for="mobile">Mobile<span class="required">*</span></label>
-          <input type="tel" id="mobile" name="mobile" required>
+
+            <label for="name">Name<span class="required">*</span></label>
+            <input type="text" id="name" name="name" autocomplete="name" required>
+
+            <label for="mobile">Mobile<span class="required">*</span></label>
+            <input type="tel" id="mobile" name="mobile" autocomplete="tel" required>
 
           <fieldset>
-          <legend>Notification Preferences</legend>
-          
-            <input type="checkbox" id="news" name="news">
-            <label for="news">News</label>
-
-            <input type="checkbox" id="politics" name="politics">
-            <label for="politics">Politics</label>
-
-            <input type="checkbox" id="weather" name="weather">
-            <label for="weather">Weather</label>
-
-            <input type="checkbox" id="sports" name="sports">
-            <label for="sports">Sports</label>
-
-            <input type="checkbox" id="entertainment" name="entertainment">
-            <label for="entertainment">Entertainment</label>
-
-            <input type="checkbox" id="world" name="world">
-            <label for="world">World</label>
-
-            <input type="checkbox" id="financial" name="financial">
-            <label for="financial">Financial</label>
+            <legend>Notification Preferences</legend>
             
-          </fieldset>
+            <div>
+              <input type="checkbox" id="news" name="news">
+              <label for="news">News</label>
+            </div>
 
-          <submit type="submit">Subscribe</submit>
+            <div>
+              <input type="checkbox" id="politics" name="politics">
+              <label for="politics">Politics</label>
+            </div>
+
+            <div>
+              <input type="checkbox" id="weather" name="weather">
+              <label for="weather">Weather</label>
+            </div>
+
+            <div>
+              <input type="checkbox" id="sports" name="sports">
+              <label for="sports">Sports</label>
+            </div>
+
+            <div>
+              <input type="checkbox" id="entertainment" name="entertainment">
+              <label for="entertainment">Entertainment</label>
+            </div>
+
+            <div>
+              <input type="checkbox" id="world" name="world">
+              <label for="world">World</label>
+            </div>
+
+            <div>
+              <input type="checkbox" id="financial" name="financial">
+              <label for="financial">Financial</label>
+            </div>
+            
+            </fieldset>
+
+            <submit type="submit">Subscribe</submit>
+
         </form>
   </section>
 </main>
