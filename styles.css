@@ -220,11 +220,11 @@ fieldset{
   border-color: var(--blue-bulletin);
 }
 
-legend{
+legend {
   text-transform:uppercase;
 }
 
-submit{
+#submit {
   background-color: var(--blue-bulletin);
   color: var(--watchdog-white);
   box-shadow: var(--shadow);
