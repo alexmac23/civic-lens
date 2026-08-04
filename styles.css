@@ -94,7 +94,9 @@ body.dark-mode {
 }
 
 /* ///ADD/// Skip Link Styles */
-
+skipLink{
+  background-color: var(--news-flash);
+}
 /* ///ADD/// Navigation Styles */
 
 /* ///ADD/// Global Layout Styles */
