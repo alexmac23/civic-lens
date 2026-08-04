@@ -159,6 +159,7 @@ footer{
   background-color: var(--news-flash);
   padding: 1rem;
   margin-bottom: 1rem;
+  margin: 0.5rem;
 }
 
 .breakingNews h3{
@@ -170,12 +171,19 @@ footer{
   margin-bottom: 1rem;
   padding: 0.5rem;
   box-shadow: var(--shadow);
+  margin:.5rem;
 }
 
 #featured h3{
   border-bottom: 1px solid var(--story-subtitle);
 }
 
+
+form{
+  background-color: var(--news-flash);
+  color: var(--watchdog-white);
+  margin:.5rem;
+}
 /* ///ADD/// Global Text Styles */
 
 
