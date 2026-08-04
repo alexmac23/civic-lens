@@ -164,6 +164,11 @@ footer{
 .breakingNews h3{
   border-bottom: 1px solid var(--watchdog-white);
 }
+
+#featured div{
+  border: 1px solid var(--blue-bulletin);
+}
+
 /* ///ADD/// Global Text Styles */
 
 
