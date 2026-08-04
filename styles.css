@@ -229,6 +229,14 @@ legend {
   color: var(--watchdog-white);
   box-shadow: var(--shadow);
   margin: 1rem;
+  text-transform:uppercase;
+
+  width: 93.75%;
+}
+
+.kbInput {
+  width: 93.75%;
+  margin: 1rem;
 }
 /* ///ADD/// Global Text Styles */
 
