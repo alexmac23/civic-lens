@@ -172,6 +172,10 @@ footer{
   box-shadow: var(--shadow);
 }
 
+#featured h3{
+  border-bottom: 1px solid var(--story-subtitle);
+}
+
 /* ///ADD/// Global Text Styles */
 
 
