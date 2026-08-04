@@ -214,6 +214,22 @@ footer small{
   justify-self: center;
 }
 
+fieldset{
+  padding: 1rem;
+  margin:.5rem;
+  border-color: var(--blue-bulletin);
+}
+
+legend{
+  text-transform:uppercase;
+}
+
+submit{
+  background-color: var(--blue-bulletin);
+  color: var(--watchdog-white);
+  box-shadow: var(--shadow);
+  margin: 1rem;
+}
 /* ///ADD/// Global Text Styles */
 
 
