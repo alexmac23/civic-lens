@@ -234,10 +234,15 @@ legend {
   width: 93.75%;
 }
 
-.kbInput {
+.formInput {
   width: 93.75%;
   margin: 1rem;
 }
+
+.formInput label {
+  width: 100%;
+}
+
 /* ///ADD/// Global Text Styles */
 
 
