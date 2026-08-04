@@ -152,6 +152,8 @@ main{
 footer{
   padding-left: 2rem;
   padding-right: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
   background-color: var(--blue-bulletin);
   color: var(--watchdog-white);
   margin-top: 1rem;
@@ -196,15 +198,21 @@ footer a{
   text-decoration:none;
   background-color: var(--news-flash);
   padding:.5rem;
-
+  text-transform:uppercase;
 }
 
 .socialLinks{
   display:grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  column-gap: 2rem;
+  grid-template-columns: repeat(4, auto);
+  column-gap: .5rem;
+  row-gap: 1rem;
+  justify-items: left;
+  align-items: left;
 }
 
+footer small{
+  justify-self: center;
+}
 
 /* ///ADD/// Global Text Styles */
 
