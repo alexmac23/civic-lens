@@ -247,7 +247,13 @@ legend {
 }
 
 /* ///ADD/// Global Text Styles */
-
+blockquote{
+  font-weight: 600;
+  padding-left: 1rem;
+  margin-left: 0;
+  margin-right: 0;
+  justify-self: center;
+}
 
 /* ///ADD/// medium styles 620px */
 
