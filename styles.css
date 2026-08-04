@@ -109,30 +109,33 @@ body.dark-mode {
 }
 
 /* ///ADD/// Navigation Styles */
-
-.largeNav nav li{
-  display:flex;
-  padding:0.5rem;
+.largeNav{
+  display:none;
 }
 
-.largeNav nav a{
+nav a{
   color:var(--watchdog-white);
   background-color: var(--news-flash);
-  padding:0.5rem;
   text-decoration:none;
 }
 
-.mobile-nav{
-  display:none;
+nav{
+  display: flex;
 }
+
+.menu-button{
+  color:var(--watchdog-white); 
+  background-color: var(--news-flash);
+}
+
 
 /* ///ADD/// Global Layout Styles */
 header{
   color:var(--watchdog-white);
   background-color: var(--blue-bulletin);
 
-  padding-left: 10rem;
-  padding-right: 10rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
