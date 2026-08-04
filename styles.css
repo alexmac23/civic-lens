@@ -184,6 +184,11 @@ form{
   color: var(--watchdog-white);
   margin:.5rem;
 }
+
+footer{
+  background-color: var(--blue-bulletin);
+  color: var(--watchdog-white);
+}
 /* ///ADD/// Global Text Styles */
 
 
