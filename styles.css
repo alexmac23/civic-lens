@@ -97,6 +97,8 @@ body.dark-mode {
 .skipLink{
   color:var(--watchdog-white);
   background-color: var(--news-flash);
+  
+  padding: 0.5rem;
 }
 /* ///ADD/// Navigation Styles */
 
