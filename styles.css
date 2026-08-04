@@ -99,11 +99,30 @@ body.dark-mode {
   background-color: var(--news-flash);
 
   padding: 0.5rem;
+
+  position:absolute;
+  left: -1000px;
 }
+
+.skipLink:focus{
+  left: 0;
+}
+
 /* ///ADD/// Navigation Styles */
-nav{
+header{
   color:var(--watchdog-white);
   background-color: var(--blue-bulletin);
+
+}
+
+nav li{
+  display:flex;
+  padding:0.5rem;
+}
+
+nav ul{
+  display:flex;
+  gap:1rem;
 }
 
 nav a{
