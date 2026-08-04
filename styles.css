@@ -143,6 +143,27 @@ header{
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+
+main{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+footer{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.breakingNews{
+  color:var(--watchdog-white);
+  background-color: var(--news-flash);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.breakingNews h3{
+  border-bottom: 1px solid var(--watchdog-white);
+}
 /* ///ADD/// Global Text Styles */
 
 
