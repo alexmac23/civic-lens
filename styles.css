@@ -303,6 +303,11 @@ a:hover{
   color: var(--blue-bulletin);
   cursor: pointer;
 }
+
+
+fieldset input[type="checkbox"] {
+  accent-color:var(--blue-bulletin);
+}
 /* ///ADD/// Global Text Styles */
 blockquote{
   font-weight: 600;
