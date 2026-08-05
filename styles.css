@@ -392,6 +392,22 @@ blockquote{
 
   }
 
+  /*Form stylings*/
+
+  form fieldset{
+    display: grid;
+    grid-template-columns: 1fr 1fr;;
+  }
+
+  .formLayout{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+  }
+
+  .formInput{
+    margin:0;
+  }
 }
 
 /* ///ADD/// large styles 920px */
