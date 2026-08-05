@@ -135,6 +135,9 @@ nav a{
 
 .mobile-nav{
   position:relative;
+
+  /*applied z index only to the things that were clipping behind other objects hopefully this fixes it*/
+  z-index: 100;
 }
 
 .mobile-nav ul{
@@ -154,6 +157,7 @@ nav a{
   text-align: center;
   padding: 0.5rem;
   border: var(--blue-bulletin) 1px solid;
+
 }
 
 /* ///ADD/// Global Layout Styles */
@@ -169,7 +173,7 @@ header{
   height:17.5vh;
 
   /*nav menu was showing up behind text in the mian body, i think its a z layering issue*/
-  z-index: 100;
+  
 }
 
 main{
