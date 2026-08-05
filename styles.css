@@ -199,7 +199,7 @@ footer{
   border-bottom: 1px solid var(--watchdog-white);
 }
 
-#featured div{
+#featured-articles div{
   border: 2px solid var(--story-subtitle);
   margin-bottom: 1rem;
   padding: 0.5rem;
@@ -207,7 +207,7 @@ footer{
   margin:.5rem;
 }
 
-#featured h3{
+#featured-articles h3{
   border-bottom: 1px solid var(--story-subtitle);
 }
 
