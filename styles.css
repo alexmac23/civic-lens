@@ -274,6 +274,7 @@ legend {
 div:hover{
   transform: scale(1.01);
   transition: var(--transition);
+  cursor: pointer;
 }
 /* ///ADD/// Global Text Styles */
 blockquote{
