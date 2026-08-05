@@ -293,7 +293,7 @@ legend {
 a:hover{
   transition: var(--transition);
   background-color: var(--blue-bulletin);
-  border-color: var(--news-flash);
+  border: var(--news-flash) 1px solid;
   cursor: pointer;
 }
 
