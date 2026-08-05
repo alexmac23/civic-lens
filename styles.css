@@ -201,6 +201,7 @@ footer{
   padding: 1rem;
   margin-bottom: 1rem;
   margin: 0.5rem;
+  box-shadow: var(--shadow);
 }
 
 .breakingNews h3{
@@ -376,6 +377,8 @@ blockquote{
     grid-template-columns: 1fr 1fr;
     gap: 0.5em
   }
+
+  
 }
 
 /* ///ADD/// large styles 920px */
