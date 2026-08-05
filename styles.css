@@ -408,6 +408,15 @@ blockquote{
   .formInput{
     margin:0;
   }
+
+  .socialLinks{
+    padding:0;
+    display:grid;
+    grid-template-columns: repeat(5, auto);
+    justify-content: left;
+    margin-bottom:2rem;
+  }
+
 }
 
 /* ///ADD/// large styles 920px */
