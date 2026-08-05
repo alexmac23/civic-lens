@@ -160,25 +160,7 @@ nav a{
 
 }
 
-.large-nav ul{
-  list-style-type:none;
-  padding:0;
-}
 
-.large-nav li{
-  text-decoration:none;
-}
-
-.large-nav a{
-  display:block;
-  width:93.75%;
-  margin-right: 1rem;
-  justify-self: center;
-  text-align: center;
-  padding: 0.5rem;
-  border: var(--blue-bulletin) 1px solid;
-
-}
 /* ///ADD/// Global Layout Styles */
 header{
   color:var(--watchdog-white);
@@ -357,6 +339,33 @@ blockquote{
   }
   .mobile-nav{
     display:none;
+  }
+
+  .menu-button{
+    display:none;
+  }
+
+  .largeNav ul{
+    list-style-type:none;
+    padding:0;
+    display:grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: left;
+  }
+
+  .largeNav li{
+    text-decoration:none;
+  }
+
+  .largeNav a{
+    display:grid;
+    width:auto;
+    margin-right: 1rem;
+    justify-self: center;
+    text-align: center;
+    padding: 0.5rem;
+    border: var(--blue-bulletin) 1px solid;
+
   }
 }
 
