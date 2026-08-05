@@ -396,7 +396,7 @@ blockquote{
 
   form fieldset{
     display: grid;
-    grid-template-columns: 1fr 1fr;;
+    grid-template-columns: 1fr 1fr;
   }
 
   .formLayout{
@@ -439,20 +439,30 @@ blockquote{
 
   /*Featured news stylings*/
   .featuredContainer{
-    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  form fieldset{
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 0.5em;
-    grid-auto-rows: max-content;
-    border:none;
-    box-shadow: none;
-    padding:0;
-    margin:0;
-
   }
 }
 
 /* ///ADD/// x-large styles 1024px */
 @media screen and (min-width: 1024px) {
+  header{
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+
+  main{
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+
+  footer{
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
 
 }
 
