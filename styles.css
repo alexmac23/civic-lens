@@ -247,6 +247,10 @@ legend {
   margin-bottom: 1rem;
 }
 
+div:hover{
+  transform: scale(1.01);
+  transition: var(--transition);
+}
 /* ///ADD/// Global Text Styles */
 blockquote{
   font-weight: 600;
