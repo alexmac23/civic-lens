@@ -334,6 +334,8 @@ blockquote{
 
 /* ///ADD/// medium styles 620px */
 @media screen and (min-width: 620px) {
+
+  /*Nav Menu stylings*/
   .largeNav{
     display:block;
   }
@@ -366,6 +368,13 @@ blockquote{
     padding: 0.5rem;
     border: var(--blue-bulletin) 1px solid;
 
+  }
+
+  /*Breaking news stylings*/
+  .newsContainer{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5em
   }
 }
 
