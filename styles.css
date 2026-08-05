@@ -409,6 +409,7 @@ blockquote{
     margin:0;
   }
 
+  /*Footer Stylings*/
   .socialLinks{
     padding:0;
     display:grid;
@@ -421,7 +422,33 @@ blockquote{
 
 /* ///ADD/// large styles 920px */
 @media screen and (min-width: 920px) {
+  header{
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
 
+  main{
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  footer{
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  /*Featured news stylings*/
+  .featuredContainer{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.5em;
+    grid-auto-rows: max-content;
+    border:none;
+    box-shadow: none;
+    padding:0;
+    margin:0;
+
+  }
 }
 
 /* ///ADD/// x-large styles 1024px */
