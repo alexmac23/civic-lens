@@ -468,7 +468,12 @@ blockquote{
 }
 
 /* ///ADD/// Interaction Queries for color scheme light and dark and motion preference */
-
+@media (prefers-reduced-motion: reduce){
+  *{
+    animation: none !important;
+    transition: none !important;
+  }
+}
 
 /* ///ADD///  Feature Query for :has() that checks if the #menu-toggle is checked */
 @supports (selector(:has(*))) {
