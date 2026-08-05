@@ -291,14 +291,12 @@ legend {
 }
 
 a:hover{
-  transition: var(--transition);
   background-color: var(--blue-bulletin);
   border: var(--news-flash) 1px solid;
   cursor: pointer;
 }
 
 #submit:hover{
-  transition: var(--transition);
   background-color: var(--watchdog-white);
   border-color: var(--blue-bulletin);
   color: var(--blue-bulletin);
