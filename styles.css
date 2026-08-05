@@ -233,6 +233,7 @@ footer a{
   background-color: var(--news-flash);
   padding:.5rem;
   text-transform:uppercase;
+  border: var(--news-flash) 1px solid;
 }
 
 .socialLinks{
@@ -242,6 +243,7 @@ footer a{
   row-gap: 1rem;
   justify-items: left;
   align-items: left;
+
 }
 
 footer small{
@@ -292,7 +294,6 @@ legend {
 
 a:hover{
   background-color: var(--blue-bulletin);
-  border: var(--news-flash) 1px solid;
   cursor: pointer;
 }
 
