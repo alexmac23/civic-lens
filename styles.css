@@ -289,6 +289,13 @@ legend {
   transition: var(--transition);
   cursor: pointer;
 }
+
+a:hover{
+  transition: var(--transition);
+  background-color: var(--blue-bulletin);
+  cursor: pointer;
+}
+
 /* ///ADD/// Global Text Styles */
 blockquote{
   font-weight: 600;
