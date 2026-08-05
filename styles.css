@@ -297,6 +297,13 @@ a:hover{
   cursor: pointer;
 }
 
+#submit:hover{
+  transition: var(--transition);
+  background-color: var(--watchdog-white);
+  border-color: var(--blue-bulletin);
+  color: var(--blue-bulletin);
+  cursor: pointer;
+}
 /* ///ADD/// Global Text Styles */
 blockquote{
   font-weight: 600;
