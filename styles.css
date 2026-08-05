@@ -226,6 +226,7 @@ form{
   color: var(--watchdog-white);
   margin:.5rem;
   padding: 1rem;
+  box-shadow: var(--shadow);
 }
 
 footer a{
@@ -450,18 +451,18 @@ blockquote{
 /* ///ADD/// x-large styles 1024px */
 @media screen and (min-width: 1024px) {
   header{
-    padding-left: 10vw;
-    padding-right: 10vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
   }
 
   main{
-    padding-left: 10vw;
-    padding-right: 10vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
   }
 
   footer{
-    padding-left: 10vw;
-    padding-right: 10vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
   }
 
 }
