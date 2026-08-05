@@ -223,8 +223,7 @@ form{
   background-color: var(--news-flash);
   color: var(--watchdog-white);
   margin:.5rem;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
+  padding: 1rem;
 }
 
 footer a{
@@ -264,10 +263,9 @@ legend {
   background-color: var(--blue-bulletin);
   color: var(--watchdog-white);
   box-shadow: var(--shadow);
-  margin: 1rem;
   text-transform:uppercase;
 
-  width: 93.75%;
+  width:100%;
 }
 
 .formInput {
