@@ -208,7 +208,7 @@ footer{
   border-bottom: 1px solid var(--watchdog-white);
 }
 
-#featured-articles div{
+.featuredContainer div{
   border: 2px solid var(--story-subtitle);
   margin-bottom: 1rem;
   padding: 0.5rem;
@@ -280,13 +280,13 @@ legend {
   margin-bottom: 1rem;
 }
 
-#featured-articles div:hover{
+.featuredContainer div:hover{
   transform: scale(1.01);
   transition: var(--transition);
   cursor: pointer;
 }
 
-#breaking-news div:hover{
+.newsContainer div:hover{
   transform: scale(1.01);
   transition: var(--transition);
   cursor: pointer;
@@ -375,10 +375,23 @@ blockquote{
   .newsContainer{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    gap: 0.5em
+    gap: 0.5em;
+
   }
 
-  
+  /*Featured news stylings*/
+  .featuredContainer{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5em;
+    grid-auto-rows: max-content;
+    border:none;
+    box-shadow: none;
+    padding:0;
+    margin:0;
+
+  }
+
 }
 
 /* ///ADD/// large styles 920px */
