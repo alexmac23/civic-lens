@@ -278,7 +278,13 @@ legend {
   margin-bottom: 1rem;
 }
 
-#breaking-news, #featured-articles div:hover{
+#featured-articles div:hover{
+  transform: scale(1.01);
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+#breaking-news div:hover{
   transform: scale(1.01);
   transition: var(--transition);
   cursor: pointer;
