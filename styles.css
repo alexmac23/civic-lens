@@ -1,4 +1,4 @@
-/* CSS by Alex MAcias */
+/* CSS by Alex Macias */
 
 /* Imported Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wdth,wght@0,18..144,87..112,300..900;1,18..144,87..112,300..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
@@ -19,12 +19,13 @@
   margin: 0;
 }
 
-/* 3. Enable keyword animations */
+/* 3. Enable keyword animations 
 @media (prefers-reduced-motion: no-preference) {
   html {
     interpolate-size: allow-keywords;
   }
 }
+((Throwing an error in the validator so we are commenting it out even though its a real command its just very new))*/ 
 
 body {
   /* 4. Increase line-height */
@@ -248,7 +249,6 @@ footer a{
   column-gap: .5rem;
   row-gap: 1rem;
   justify-items: left;
-  align-items: left;
 
 }
 

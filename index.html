@@ -25,7 +25,7 @@
 <a href="#main-content" class="skipLink">Skip to main content</a>
 
     <button id="theme-toggle" aria-label="Toggle light/dark mode">
-      <svg width="35px" height="35px" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <svg width="35px" height="35px" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <defs><clipPath id="a"><path d="m18.512 18.512h62.977v62.977h-62.977z"/></clipPath></defs>
         <g clip-path="url(#a)"><path d="m65.098 68.164c-9.2812 7.7266-23.09 7.2422-31.797-1.4648-8.707-8.7031-9.1953-22.516-1.4648-31.793 0.74609-0.89844 2.1016-0.96875 2.9258-0.14453l30.473 30.477c0.82422 0.82422 0.75391 2.1797-0.13672 2.9258m7.168-40.43c-12.297-12.297-32.234-12.297-44.531 0-12.297 12.301-12.297 32.234 0 44.531s32.234 12.297 44.531 0 12.297-32.23 0-44.531" fill="#333" fill-rule="evenodd"/></g>
       </svg>
@@ -57,18 +57,19 @@
   </header>
 
 <main id="main-content">
-  <section id="breaking-news">
+  <section>
       <h2>Welcome to Civic Lens</h2>
         <p>We are an independent news organization dedicated to unbiased reporting, investigative journalism, and truth-driven storytelling. At Civic Lens, our mission is to expose the facts, amplify marginalized voices, and shine light on the systems that shape our society.</p>
         <blockquote class="tagline">“We don't follow the narrative. We follow the facts.”</blockquote>
-
+      </section>
+    <section id="breaking-news">
       <h2>Breaking News</h2>
       <div class="newsContainer">
         <div class="breakingNews">
           <h3>Federal Investigation Launched into Water Mismanagement in the Southwest</h3>
           <p>The Department of Justice has announced a full investigation into decades of water distribution practices affecting tribal lands and rural communities.</p>
             <div class="videoContainer">
-              <iframe src="videos/water-management.mp4"></iframe>
+              <iframe src="videos/water-management.mp4" title="Bird's-eye view of a water management facility"></iframe>
             </div>
         </div>
 
@@ -76,7 +77,7 @@
           <h3>Voter Suppression Bill Faces Pushback in State Supreme Court</h3>
           <p>Civil rights advocates argue that the bill disenfranchises thousands of voters and potential voters of color and those in rural areas of the country.</p>
             <div class="videoContainer">
-              <iframe src="videos/voter-suppression.mp4"></iframe>
+              <iframe src="videos/voter-suppression.mp4" title="Moving shot of people voting at voting booths"></iframe>
             </div>
         </div>
       </div>
@@ -107,7 +108,7 @@
 
     <div>
         <h3>Climate Injustice: Who Pays for Pollution?</h3>
-        <p>ommunities of color bear the brunt of environmental damage.</p>
+        <p>Communities of color bear the brunt of environmental damage.</p>
     </div>
 
     <div>
@@ -210,7 +211,7 @@
 <footer id="social">
       <h2>Follow Us</h2>
         <div class="socialLinks">
-          <a href="https://twitter.com/civiclens=" target="_blank">Twitter/X</a>
+          <a href="https://twitter.com/civiclens" target="_blank">Twitter/X</a>
           <a href="https://instagram.com/civiclens" target="_blank">Instagram</a>
           <a href="https://youtube.com/civiclens" target="_blank">YouTube</a>
           <a href="https://tiktok.com/@civiclens" target="_blank">TikTok</a>
