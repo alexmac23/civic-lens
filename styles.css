@@ -3,6 +3,9 @@
 /* Imported Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wdth,wght@0,18..144,87..112,300..900;1,18..144,87..112,300..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
+/* Serif:Fraunces || Sans-Serif: Cabin*/
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
 /* ///ADD/// CSS Reset */
 /*CSS reset from https://www.joshwcomeau.com/css/custom-css-reset/ */
 
@@ -359,7 +362,7 @@ label{
 }
 
 small{
-  
+
 }
 
 /* ///ADD/// medium styles 620px */
