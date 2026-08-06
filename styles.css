@@ -172,15 +172,16 @@ header{
   padding-left: 2rem;
   padding-right: 2rem;
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom:1rem;
 
-  height:17.5vh;
+  height:20vh;
 
   /*nav menu was showing up behind text in the mian body, i think its a z layering issue*/
   
 }
 
 main{
+  padding-top:2rem;
   padding-left: 2rem;
   padding-right: 2rem;
 }
@@ -328,13 +329,24 @@ fieldset input[type="checkbox"] {
   height: 100%;
 }
 
+section{
+  padding-bottom:2rem;
+}
 /* ///ADD/// Global Text Styles */
 blockquote{
-  font-weight: 600;
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+
   padding-left: 1rem;
   margin-left: 0;
   margin-right: 0;
   justify-self: center;
+
 }
 
 h1{
@@ -368,27 +380,65 @@ h3{
 }
 
 p{
-
+  font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 a{
-
+  font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 75;
 }
 
 label{
-
+    font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 small{
-
+  font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
+#submit{
+  font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 75;
+}
+
+legend{
+  font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 /* ///ADD/// medium styles 620px */
 @media screen and (min-width: 620px) {
 
   /*Nav Menu stylings*/
   .largeNav{
     display:block;
+    padding-top:1rem;
   }
   .mobile-nav{
     display:none;
