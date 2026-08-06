@@ -469,7 +469,7 @@ blockquote{
 
 /* ///ADD/// Interaction Queries for color scheme light and dark and motion preference */
 @media (prefers-color-scheme: light){
-  body.light-mode {
+  body {
     background-color: var(--watchdog-white);
     color: var(--truth-text);
   }
@@ -477,7 +477,7 @@ blockquote{
 }
 
 @media (prefers-color-scheme: dark){
-  body.dark-mode {
+  body {
     background-color: var(--truth-text);
     color: var(--watchdog-white);
   }
